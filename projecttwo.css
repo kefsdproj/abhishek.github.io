@@ -1,0 +1,115 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(245, 206, 206);
+    }
+
+
+
+.navbar-style{
+    box-shadow: 0 2px 10px #060606;
+}
+
+.logo{
+    height: 40px;
+    
+}
+.icon-bar{
+    background: darkcyan;
+}
+.large-font{
+    font-size: 58px;
+    color: darkcyan;
+    
+    font-weight: 700;
+}
+.top-space{
+    margin-top: 150px;
+}
+h1{
+    font-size: 48px;
+}
+.card-title{
+    font-size: xx-large;
+    font-weight: 700;
+}
+.card-text{
+    font-size: large;
+
+}
+
+.card{
+    text-align: center;
+    margin-bottom: 10px !important;
+}
+
+.card-img{
+    overflow: hidden;
+}
+
+.card-img img{
+    width: 100%;
+    transition: all 1.5s ease;
+}
+
+.card-img:hover img{
+    transform: scale(1.5);
+}
+
+.btn-dark{
+    background-color: black;
+    color: aliceblue;
+}
+
+.btn-outline-dark{
+    background-color:#ff4d00;
+    transition: all 0.2s ease;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+.btn-outline-dark:hover{
+    background-color: #ff6600 ;
+    color: aliceblue;
+    box-shadow:0 1px 8px #060606;
+    transform: scale(1.1);
+    
+}
+footer{
+    background: #313131;
+    color: rgb(209, 209, 209);
+    
+    
+}
+.follow{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0 5px 0;
+}
+.follow li{
+    margin: 0 10px;
+}
+.copyright{
+    padding: 5px 0;
+    background: #2d2d2d;
+    font-size: 14px;
+}
+
+.follow a{
+    text-decoration: none;
+    color: rgb(218, 218, 218);
+}
+.follow a:hover i{
+    color: cornflowerblue;
+    transform: scale(1.1);
+}
+footer p{
+    margin-top: 10px;
+    
+}
